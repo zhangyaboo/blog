@@ -42,7 +42,7 @@ params:
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: /logo.png
     iconHeight: 35
 
   # profile-mode
