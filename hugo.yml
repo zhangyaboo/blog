@@ -16,10 +16,10 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -34,11 +34,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/icon/favicon.ico"
+    favicon16x16: "/icon/favicon-16x16.png"
+    favicon32x32: "/icon/favicon-32x32.png"
+    apple_touch_icon: "/icon/apple-touch-icon.png"
+    safari_pinned_tab: ""
 
   label:
     text: "Home"
@@ -62,18 +62,18 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi,fuck you??? \U0001F44B"
-    Content: Welcome 
+    Title: "Hi! Dear friends! \U0001F44B"
+    Content: Welcome to my website!
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
-    - name: qq
-      url: "https://im.qq.com/"
+    # - name: 网易云
+    #   url: "https://music.163.com/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    # - name: github
+    #   url: "https://github.com/"
+    # - name: qq
+    #   url: "https://im.qq.com/"
 
 menu:
   main:
@@ -89,3 +89,7 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
