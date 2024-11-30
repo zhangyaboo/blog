@@ -1,0 +1,30 @@
+# Hugo 输出的静态文件目录
+/public/
+/resources/
+
+# Hugo 缓存目录
+hugo_stats.yaml
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 配置文件备份
+*.bak
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+
+# 开发工具相关
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 部署相关
+deploy.sh
