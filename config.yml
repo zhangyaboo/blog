@@ -1,5 +1,5 @@
-baseURL: "https://auss.site"
-languageCode: en-us
+baseURL: "https://blog.auss.site"
+languageCode: zh-CN
 title: only random
 theme: PaperMod
 
@@ -8,7 +8,7 @@ params:
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: random
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -41,7 +41,7 @@ params:
     safari_pinned_tab: ""
 
   label:
-    text: "Home"
+    text: "主页"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -62,7 +62,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi! Dear friends! \U0001F44B"
+    Title: "欢迎~ \U0001F44B"
     Content: Welcome to my website!
 
   socialIcons:
@@ -77,19 +77,23 @@ params:
 
 menu:
   main:
+    - identifier: leetcode
+      name: 刷题
+      url: /leetcode/
+      weight: 5
     - identifier: categories
-      name: Categories
+      name: 分类
       url: /categories/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: archives
-      name: Archives
+      name: 归档
       url: /archives/
       weight: 30
     - identifier: about
-      name: About
+      name: 我
       url: /about/
       weight: 40

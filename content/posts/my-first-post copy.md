@@ -2,12 +2,11 @@
 date: '2024-11-30T12:46:50+08:00'
 title: 'Spring中Validation注解使用'
 draft: false
-cover:
-    image: img/613927.jpg
+
 tags: ["spring"]
 categories: ["spring"]
 ---
-# Spring 中使用 Validation 注解校验参数
+
 
 在日常开发中，参数校验是一个常见需求，而 Java 的 **Bean Validation** 提供了一种优雅的方式，通过注解对对象的字段进行校验。Spring 对此功能进行了深度整合，使得在 Controller、Service 等层面实现校验变得非常简单。
 
