@@ -81,6 +81,11 @@ menu:
       name: 刷题
       url: /leetcode/
       weight: 5
+    - identifier: todo
+      name: todo
+      url: /todo/
+      weight: 7
+    - identifier: categories
     - identifier: categories
       name: 分类
       url: /categories/
