@@ -80,24 +80,24 @@ menu:
     - identifier: leetcode
       name: 刷题
       url: /leetcode/
-      weight: 5
+      weight: 10
     - identifier: todo
-      name: todo
+      name: 代办
       url: /todo/
-      weight: 7
+      weight: 20
     - identifier: categories
       name: 分类
       url: /categories/
-      weight: 10
+      weight: 30
     - identifier: tags
       name: 标签
       url: /tags/
-      weight: 20
+      weight: 40
     - identifier: archives
       name: 归档
       url: /archives/
-      weight: 30
+      weight: 50
     - identifier: about
       name: 我
       url: /about/
-      weight: 40
+      weight: 60
