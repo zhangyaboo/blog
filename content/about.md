@@ -1,7 +1,6 @@
 ## about me
 
-nothing...
-![alt text](image.png)
+一名热爱技术的小开发，
 
-![alt text](image.png)
-![alt text](image-1.png)
+有那么一点点的完美主义，
+nothing...
