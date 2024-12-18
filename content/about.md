@@ -1,6 +1,11 @@
 ## about me
 
-一名热爱技术的小开发，
+一名小菜鸡。
 
-有那么一点点的完美主义，
-nothing...
+<p align=“center”>
+<img src='https://img.picui.cn/free/2024/12/18/67623fe1f019f.png'  width="150">
+</p>
+
+<p align=“center”>
+<img src='https://img.picui.cn/free/2024/12/18/67623fe1f019f.png'  width="30%">
+</p>
